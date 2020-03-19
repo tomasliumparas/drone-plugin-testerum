@@ -7,3 +7,9 @@ steps:
 - name: Docker image 
   image: plugins/docker
   settings:
+    username:
+      from_secret: DOCKER_USER
+    password:
+      from_secret: DOCKER_TOKEN
+    repo: getais/drone-plugin-testerum
+    tags: latest 
