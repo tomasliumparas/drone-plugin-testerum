@@ -7,6 +7,6 @@ Runs Testerum tests from specified Testerum repo folder.
 
 ```
 docker run --rm \
-  -e PLUGIN_REPOSITORY_DIRECTORY=test \
+  -e PLUGIN_REPO=test \
   getais/drone-plugin-testerum
 ```
